@@ -1,0 +1,46 @@
+<html>
+<head>
+<style>
+.myDiv {
+  width:750px;
+  height:100px;
+  border: 2px outset black;
+  background-color: MediumSeaGreen;    
+  text-align: center;
+}
+.myDiv2{
+  width:753px;
+  height:250px;
+  border: 1px outset black;   
+  background-color: LightGray;
+  
+}
+</style>
+</head>
+<body>
+<div class="myDiv">
+ <h1 style="color:white">Welcome to HIS</h1>
+</div>
+<div class="myDiv2">
+<br/>
+Hi  {FNAME}  {LNAME} ,
+
+<br/>
+<br/>
+Welcome to HIS , Your registration is almost completed.Plese use below 
+
+details to unlock your account.<br/>
+<br/>
+
+Temporary Password : <b>{TEMP-PWD}<b><br/>
+<br/>
+
+<a href='http://localhost:8086/unlockAcc?email={EMAIL}'>
+Click Here To Unlock Your Account</a> <br/>
+<br/>
+
+Thanks & Regards,<br/>
+SuryaTech Team.<br/>
+</div>
+</body>
+</html>
